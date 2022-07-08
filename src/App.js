@@ -7,8 +7,9 @@ import Services from './components/Services';
 import Navbar from './components/Nav/navbar';
 // import Appointment from './pages/appointment';
 
-// import { BrowserRouter, Router, Route } from 'react-router-dom';
-// import Appointment from './pages/appointment';
+// import { Route } from 'react-router-dom';
+
+import Appointment from './pages/appointment';
 
 
 function App() {

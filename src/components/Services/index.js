@@ -1,6 +1,7 @@
 import React from 'react';
+import Appointment from '../../pages/appointment';
+// import { Route } from 'react-router-dom';
 // import {Link} from 'react-router-dom';
-
 
 function Services() {
     return (
@@ -15,11 +16,12 @@ function Services() {
         <li>Kids 12 and Under - $20</li>
         </ul>
         <div className='appointment' id='appointment'>
-        <button
-> Create Appointment Here!
-
-{/* <Link to="../"></Link> */}
-</button>        {/* on click make this take you to the appointment page */}
+            <button>
+        <a href='/Appointment'>
+    Create Apppointment here
+</a>
+</button>
+        {/* on click make this take you to the appointment page */}
         </div>
         </section>
     )

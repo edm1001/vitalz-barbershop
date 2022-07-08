@@ -1,13 +1,14 @@
 import React from "react";
-import Nav from "../components/Nav/navbar";
 
 
 
 // import {Link} from 'react-router-dom';
 
 function Appointment() {
-    return (
-        <Nav></Nav>
+    return ( 
+        <div>
+            <h3>appointment page</h3>
+        </div>
     )
 }
 export default Appointment;

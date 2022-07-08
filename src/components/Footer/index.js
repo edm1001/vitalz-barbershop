@@ -1,12 +1,14 @@
 import React from 'react';
-//import the background picture
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 function Footer() {
     return (
-        <section className='footer'>
-            <div></div>
-
-        <h1> footer section</h1>
+        <section className='footer py-2'>
+            <div className='container' id='socials'>
+                <a href="#" id='instagram'>Instagram</a> <br/>
+                <a href="#" id='facebook'>Facebook</a>
+            </div>
         </section>
     )
 }
