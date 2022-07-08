@@ -1,0 +1,168 @@
+:root {
+  --textColor: #ffff;
+  --backgroundColor: #000;
+  --secondaryColor: #d5ab44;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding:  0 rem;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: var(--textColor);
+  height: 1rem;
+  line-height: 2.0;
+}
+/* NAVBAR START */
+nav a {
+  margin: 0 2rem;
+  color: var(--textColor);
+  display: none;
+}
+nav a:hover {
+  color: var(--textColor);
+}
+header .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--backgroundColor);
+  visibility: hidden;
+  opacity: 0;
+
+}
+@media only screen and (max-width: 1024px){
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+    font-size: 2rem;
+  }
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    transition: 1.5s;
+    transform: translate(-100v);
+  }
+  header.responsive_nav{
+    transform: none;
+
+  }
+  .placeholder{
+    width: 20%;
+    display : flex;
+  margin-top : 30px;
+  padding-right : 50px
+  }
+
+}
+.logo {
+  background-color: aliceblue;
+}
+.navbar {
+background-color: var(--secondaryColor);
+width:100%;
+padding: 0 20px;
+border-bottom: 2px solid #ffff;
+display: flex;
+justify-content: space-between;
+color: black;
+}
+li{
+  padding:1px 0px;
+}
+/* BURGER MENU */
+.burger {
+  font-size: 10px;
+  font-weight: bold;
+}
+/* .menu {
+  display: none;
+} */
+
+/* find function to have things appear */
+/* NAVBAR END*/
+/* ABOUT START */
+.about{
+  width:"100%";
+  height: "100%";
+  padding:"10px";
+  margin:' 0 auto';
+}
+#about-info{
+  justify-content: space-around;
+  align-items: center;
+  color: antiquewhite;
+  padding: 60px 40px;
+}
+.ourstory {
+  background-image: url('./assets/cover/cover-image.png');
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+
+/* ABOUT END */
+
+/* SERVICES START*/
+#appointment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* SERVICES END */
+
+/* GALLERY START */
+#client-pic {
+  /* background-image: url('./assets/cover/cover-image.png'); */
+  width:100%;
+  height: 100%;
+  padding: 10px 10px;
+  
+}
+#haircuts {
+  background-size: cover;
+  background-position: center;
+}
+#placeholder{
+
+  display : block;
+  flex: wrap;
+  margin-top : 30px;
+  position: fixed;
+  grid-template-columns: 150px 150px;
+  grid-gap: 5px; 
+}
+/* GALLERY END */
+
+/* CONTACT START */
+
+/* .contact-info} */
+
+/* CONTACT END */
+
+/* FOOTER START */
+.footer {
+  background-color: #ffff;
+  width:100%;
+  border-top: 2px solid #d5ab44;
+  
+  color: black;}
+/* FOOTER END */

@@ -3,8 +3,11 @@ import React from 'react';
 
 function Footer() {
     return (
+        <section className='footer'>
+            <div></div>
+
         <h1> footer section</h1>
-        
+        </section>
     )
 }
 export default Footer;

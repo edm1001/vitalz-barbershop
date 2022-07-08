@@ -1,17 +1,32 @@
-import React, { useState } from 'react';
+import React from 'react';
 import About from '../src/components/About';
 import Gallery from '../src/components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Services from './components/Services';
-import Navbar from '../src/components/Nav';
+import Navbar from './components/Nav/navbar';
+import Appointment from './pages/appointment';
+
+import { BrowserRouter, Router, Route } from 'react-router-dom';
+// import Appointment from './pages/appointment';
+
 
 function App() {
   return (
-    <html>
+    
       <div className="App">
-      <header className="App-header">
-        <Navbar></Navbar>
+
+{/* <BrowserRouter>
+       <Router>
+              <Route exact path="/"></Route>
+              <Route exact path="/appointment" component={Appointment}/>
+      </Router>
+    </BrowserRouter> */}
+      <header className="nav-bar">
+        <div></div>
+        <React.Fragment>
+        <Navbar/>
+        </React.Fragment>
       </header>
       <main>
         <About></About>
@@ -23,7 +38,6 @@ function App() {
         <Footer></Footer>
       </footer>
     </div>
-    </html>
   );
 }
 
