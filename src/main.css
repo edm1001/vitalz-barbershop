@@ -21,6 +21,9 @@ body {
   height: 1rem;
   line-height: 2.0;
 }
+h1 {
+  text-align:center;
+}
 /* NAVBAR START */
 nav a {
   margin: 0 2rem;
@@ -163,8 +166,12 @@ li{
   background-color: #ffff;
   width:100%;
   border-top: 2px solid #d5ab44;
-  
   color: black;
+}
+#socials{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
 }
 #facebook {
   background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);

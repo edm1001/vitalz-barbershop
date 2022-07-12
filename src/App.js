@@ -9,7 +9,7 @@ import Navbar from './components/Nav/navbar';
 
 // import { Route } from 'react-router-dom';
 
-import Appointment from './pages/appointment';
+import Appointment from './pages/Appointment';
 
 
 function App() {
