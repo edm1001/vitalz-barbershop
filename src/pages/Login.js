@@ -1,33 +1,64 @@
-import { render } from '@testing-library/react';
-import React from 'react';
-import Logo from '../assets/small/vb-logo.png'
+// import { render } from '@testing-library/react';
+import React, {useState} from 'react';
 
-class Login extends React.Component{
-    state={
-        email:'',
-        pwd: ''
-    }
-}
-handleChange = (e) =>{
-    const {name, value} = e.target
-}
-handleSubmit = (e) =>{
+const Login = (props) => {
+  const [formState, setFormState] = useState({ email: '', password: '' });
 
-}
-render(){
-    return (
-        <div>
-            <div className='login-container'>
-            <Logo/>    
-            </div>
-            <div>
-                <form onSubmit>
-                    <input type='email' name='email' placeholder='email' required onChange/>
-                    <input type='password'name='password'placeholder='password' required onChange/>
-                    <button onSubmit> Log In</button>
-                </form>
-            </div>
+  // update state based on form input changes
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+
+    setFormState({
+      ...formState,
+      [name]: value,
+    });
+  };
+
+  // submit form
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+
+    // clear form values
+    setFormState({
+      email: '',
+      password: '',
+    });
+  };
+
+  return (
+    <main className='flex-row justify-center mb-4'>
+      <div className='w-100 col-md-6'>
+        <div className='card'>
+          <h4 className='card-header'>Login</h4>
+          <div className='card-body'>
+            <form onSubmit={handleFormSubmit}>
+              <input
+                className='form-input'
+                placeholder='Your email'
+                name='email'
+                type='email'
+                id='email'
+                value={formState.email}
+                onChange={handleChange}
+              />
+              <input
+                className='form-input'
+                placeholder='******'
+                name='password'
+                type='password'
+                id='password'
+                value={formState.password}
+                onChange={handleChange}
+              />
+              <button className='btn d-block' type='submit'>
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
-    )
-}
+      </div>
+    </main>
+  );
+};
+
 export default Login;

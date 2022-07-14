@@ -4,12 +4,13 @@ import Gallery from '../src/components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Services from './components/Services';
-import Navbar from './components/Nav/navbar';
+import Navbar from './components/Nav';
 // import Appointment from './pages/appointment';
 
 // import { Route } from 'react-router-dom';
 
 import Appointment from './pages/Appointment';
+import Login from './pages/Login';
 
 
 function App() {
@@ -23,6 +24,10 @@ function App() {
         <React.Fragment>
         <Navbar/>
         </React.Fragment>
+        {/* <Route
+                path="/login"
+                element={<Login />}
+              /> */}
       </header>
       <main>
         <About></About>

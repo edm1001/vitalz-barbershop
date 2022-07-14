@@ -7,9 +7,9 @@ function Services() {
 // let history = useHistory();
 
     return (
-        <section className='services' id='services'>
+        <section className='services' >
         <h1>Services</h1>
-        <ul> 
+        <ul id='services'> 
         <li>Haircut - $25</li>
         <li>Edge up - $12</li>
         <li>Hot Towel Shave - $20</li>

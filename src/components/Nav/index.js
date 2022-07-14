@@ -1,8 +1,10 @@
 import {useRef} from 'react';
+import {Link}  from 'react-router-dom';
 import { FaBars, FaTimes} from "react-icons/fa"
+import Login from '../../pages/Login'
 // import '../../../src/'
 //import logo icon
-function Navbar ()  {
+const Navbar = () =>  {
     const navRef = useRef();
 
     const showNavBar = () => {
@@ -10,7 +12,9 @@ function Navbar ()  {
     }
     return (
     <header className='navbar'>
-        <h3>Logo</h3>     
+        <div className='box sb'>
+            <h1>Vital Cutz</h1>
+          </div>     
 
         <nav ref={navRef}>
             <a href='/#'>Home</a>
@@ -18,7 +22,12 @@ function Navbar ()  {
             <a href='/#contact'>Contact</a>
             <a href='/#services'>Services</a>
             <a href='/#appointment'>Appointment</a>
-            <a href='/#contact'>Times and Location</a>         
+            <a href='/#contact'>Times and Location</a>
+            <div>  
+            {/* <Link to="/login"> Log In</Link> 
+            why doesnt this work?
+            */}
+            </div>
         <button className='nav-btn nav-close-btn' onClick={showNavBar}>
             <FaTimes/>
         </button>
