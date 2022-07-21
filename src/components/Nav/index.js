@@ -1,9 +1,10 @@
 import {useRef} from 'react';
 import {Link}  from 'react-router-dom';
 import { FaBars, FaTimes} from "react-icons/fa"
-import Login from '../../pages/Login'
+
+// import Login from '../../pages/Login'
 // import '../../../src/'
-//import logo icon
+
 const Navbar = () =>  {
     const navRef = useRef();
 
