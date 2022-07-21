@@ -10,6 +10,7 @@ const Navbar = () =>  {
     const showNavBar = () => {
         navRef.current.classList.toggle("responsive_nav");
     }
+    
     return (
     <header className='navbar'>
         <div className='box sb'>

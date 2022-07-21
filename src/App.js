@@ -1,21 +1,19 @@
 import React from 'react';
-import About from '../src/components/About';
-import Gallery from '../src/components/Gallery';
+import About from './components/About';
+import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Services from './components/Services';
 import Navbar from './components/Nav';
 // import Appointment from './pages/appointment';
 
-// import { Route } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
-import Appointment from './pages/Appointment';
+// import Appointment from './pages/Appointment';
 import Login from './pages/Login';
-
 
 function App() {
   return (
-    
       <div className="App">
 
 
@@ -30,6 +28,7 @@ function App() {
               /> */}
       </header>
       <main>
+        <Login></Login>
         <About></About>
         <Services></Services>
         <Gallery></Gallery>
