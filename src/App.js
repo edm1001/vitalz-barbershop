@@ -1,42 +1,49 @@
 import React from 'react';
-import About from './components/About';
-import Gallery from './components/Gallery';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Services from './components/Services';
 import Navbar from './components/Nav';
-// import Appointment from './pages/appointment';
-
+import Home from './pages/Home';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-
-// import Appointment from './pages/Appointment';
 import Login from './pages/Login';
+import Appointment from './pages/Appointment'
 
 function App() {
   return (
       <div className="App">
-
-
-      <header className="nav-bar">
-        <div></div>
-        <React.Fragment>
+        <Router>
         <Navbar/>
-        </React.Fragment>
+        <div>
+         <Routes>
+         <Route
+                path="/"
+                element={<Home />}
+              />
+          <Route
+                path="/login"
+                element={<Login />}
+              />
+          <Route
+                path="/appointment"
+                element={<Appointment/>}
+              />
+          
+         </Routes>
+        </div>    
+
+        <Footer/>    
+          </Router>
+
+
         {/* <Route
                 path="/login"
                 element={<Login />}
               /> */}
-      </header>
-      <main>
-        <Login></Login>
+        {/* <Login></Login>
         <About></About>
         <Services></Services>
         <Gallery></Gallery>
-        <Contact></Contact>
-      </main>
-      <footer>
-        <Footer></Footer>
-      </footer>
+        <Contact></Contact> */}
+
+        {/* CREATE ROUTES FOR THE HOME APPOINTMENT AND LOGIN PAGE */}
     </div>
   );
 }

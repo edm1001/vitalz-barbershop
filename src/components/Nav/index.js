@@ -15,7 +15,9 @@ const Navbar = () =>  {
     return (
     <header className='navbar'>
         <div className='box sb'>
+            <Link to=''>
             <h1>Vital Cutz</h1>
+            </Link>
           </div>     
 
         <nav ref={navRef}>
@@ -26,9 +28,7 @@ const Navbar = () =>  {
             <a href='/#appointment'>Appointment</a>
             <a href='/#contact'>Times and Location</a>
             <div>  
-            {/* <Link to="/login"> Log In</Link> 
-            why doesnt this work?
-            */}
+            <Link to="/login"> Log In</Link> 
             </div>
         <button className='nav-btn nav-close-btn' onClick={showNavBar}>
             <FaTimes/>
