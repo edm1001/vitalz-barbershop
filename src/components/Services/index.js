@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 // import Appointment from '../../pages/Appointment';
 // import { useHistory } from 'react-router-dom';
 // import {Link} from 'react-router-dom';
@@ -17,11 +18,8 @@ function Services() {
         <li>Head Shave - $30</li>
         <li>Kids 12 and Under - $20</li>
         </ul>
-        <div className='appointment' id='appointment-btn'>
-            <button 
-            
-            >Create Apppointment here</button>
-        {/* on click make this take you to the appointment page */}
+        <div className='appointment' id='appointment-btn'>  
+            <Link to="/login"> Make a Reservation</Link> 
         </div>
         </section>
     )

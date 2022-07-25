@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Login from './pages/Login';
 import Appointment from './pages/Appointment'
+// import { ScheduleComponent } from '@syncfusion/ej2-react-schedule';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
               />
           
          </Routes>
-        </div>    
+        </div>
 
         <Footer/>    
           </Router>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Map from '../../assets/large/vb-location.png';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 
 function Contact() {

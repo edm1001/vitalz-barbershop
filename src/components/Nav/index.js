@@ -1,10 +1,6 @@
 import {useRef} from 'react';
 import {Link}  from 'react-router-dom';
 import { FaBars, FaTimes} from "react-icons/fa"
-
-// import Login from '../../pages/Login'
-// import '../../../src/'
-
 const Navbar = () =>  {
     const navRef = useRef();
 
@@ -25,8 +21,10 @@ const Navbar = () =>  {
             <a href='/#about'>What We Do</a>
             <a href='/#contact'>Contact</a>
             <a href='/#services'>Services</a>
-            <a href='/#appointment'>Appointment</a>
             <a href='/#contact'>Times and Location</a>
+            <div>  
+            <Link to="/appointment"> Book with Us!</Link> 
+            </div>
             <div>  
             <Link to="/login"> Log In</Link> 
             </div>
