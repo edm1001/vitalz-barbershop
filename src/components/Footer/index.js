@@ -13,14 +13,13 @@ function Footer() {
         <section className='footer'>
             <div className='container' id='socials'>
                 <div className='icons'>
-                <a href='url()'>
+                <a href='https://www.facebook.com/vitalcutztexas'>
                 <FaFacebook/>
                 </a>
                 </div>
                 <div>
-               <a href='url()'>
+               <a href='https://www.instagram.com/vitalcutz/'>
                 <FaInstagram/>
-                @vitalcutz
                 </a>
                 </div>
                 <div>

@@ -15,7 +15,7 @@ function Contact() {
             </div>
             <img src={Map} alt='map' style={{width:'80%'}}>
             </img>
-            
+        <div>    
         <h3>
             Times
             </h3>
@@ -28,6 +28,7 @@ function Contact() {
                 Fri: 9am - 8pm <br></br>
                 Sat: 8am - 3pm
             </p>
+            </div>    
         </div>
         </section>
     )
