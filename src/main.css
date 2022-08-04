@@ -110,10 +110,8 @@ li{
 
 /* GALLERY START */
 #client-pic {
-  /* background-image: url('./assets/cover/cover-image.png'); */
   width:100%;
   height: 100%;
-  padding: 10px 10px;
   
 }
 #haircuts {
@@ -173,15 +171,20 @@ li{
   width:100%;
   border-top: 2px solid #d5ab44;
   color: black;
-}
-#socials{
-  width: 50%;
   display: flex;
   justify-content: space-between;
+  align-items: center;  
+
 }
-#facebook {
-  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
-  background-repeat: no-repeat;
+#socials{
+  width: 50%; 
+  display: flex;
+}
+.number{
+  padding-right:50px;
+  color:black;
+  font-size: larger;
+  font-weight:bolder;
 }
 
 /* FOOTER END */
