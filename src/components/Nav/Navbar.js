@@ -1,19 +1,20 @@
 import Navigation from "./Navigation";
 import MobileNavigation from "./MobileNavigation";
-
 import {Link} from "react-router-dom";
+import Logo from "../../assets/logo/vb-logo.png";
 
 const Navbar = () =>  {
     return (
         <header className="nav-bar">
-             <div className='box sb'>
+             <div className="nav-logo">
             <Link to=''>
-            <h1>Vital Cutz</h1>
+              <img src={Logo}alt="logo" className="navbar-logo"></img>
             </Link>
-          </div> 
+            
         <div className="Navbar">
         <Navigation/>
         <MobileNavigation/>
+        </div>
         </div>
         </header>
     )

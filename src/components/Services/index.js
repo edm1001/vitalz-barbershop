@@ -8,6 +8,7 @@ function Services() {
 // let history = useHistory();
 
     return (
+        //create a pic that changes with the service line
         <section className='services' >
         <h1>Services</h1>
         <ul id='services'> 
@@ -18,7 +19,7 @@ function Services() {
         <li>Head Shave - $30</li>
         <li>Kids 12 and Under - $20</li>
         </ul>
-        <div className='appointment' id='appointment-btn'>  
+        <div className='appointment' >  
             <Link to="/login"> Make a Reservation</Link> 
         </div>
         </section>

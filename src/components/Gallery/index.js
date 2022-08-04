@@ -15,11 +15,6 @@ function Gallery() {
         <div id="placeholder" >
         <img src={haircut} alt="haircut"/>
         </div>
-        <img id='placeholder' src={haircut} alt="haircut"/>
-        <img classname="placeholder" src={haircut} alt="haircut"/>
-        <img classname="placeholder" src={haircut} alt="haircut"/>
-        <img classname="placeholder" src={haircut} alt="haircut"/>
-        <img classname="placeholder" src={haircut} alt="haircut"/>
         </div>
         </section>
     </section>
