@@ -7,16 +7,14 @@ function Gallery() {
     return (
         <section className='gallery' id='gallery'
         >
-        
-
-        <section className='client-pic' id='client-pic'>
+        <div className='client-pic' id='client-pic'>
         <h1>Client Gallery</h1>
         <div className='haircuts' id='haircuts' style={{backgroundImage:`url(${background})`}}>
         <div id="placeholder" >
         <img src={haircut} alt="haircut"/>
         </div>
         </div>
-        </section>
+        </div>
     </section>
 
     )

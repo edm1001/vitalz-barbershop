@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebook} from 'react-icons/fa';
 import { FaInstagram} from 'react-icons/fa';
-
+import footerBackground from '../../assets/cover/wallpaper.jpg'
 
 
 function Footer() {
@@ -11,14 +11,15 @@ function Footer() {
                 <div className='icons'>
                 <a href='https://www.facebook.com/vitalcutztexas'>
                 <FaFacebook
-  color='darkgrey' size='40px'
+  color='gray' size='40px'
                 />
                 </a>
                 </div>
                 <div>
-               <a href='https://www.instagram.com/vitalcutz/'>
+               <a href='https://
+               www.instagram.com/vitalcutz/'>
                 <FaInstagram 
-                color='darkgrey' size='40px'
+                color='gray' size='45px'
                 />
                 </a>
                 </div>

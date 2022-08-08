@@ -1,6 +1,6 @@
 import NavLinks from "./NavLinks";
 import {FaBars} from "react-icons/fa"
-import {GrFormClose} from "react-icons/gr";
+import {AiOutlineClose} from "react-icons/ai";
 import { useState } from "react";
 
 const MobileNavigation = () => {
@@ -9,7 +9,7 @@ const MobileNavigation = () => {
     const burgerIcon = <FaBars
     className="burger" size='40px' color="white" onClick={() => setOpen(!open)}
     />;
-    const closeIcon = <GrFormClose
+    const closeIcon = <AiOutlineClose
     className="burger" size='40px' color="white" onClick={() => setOpen(!open)}
     />;
     const closeMobileMenu = () => setOpen(false);
