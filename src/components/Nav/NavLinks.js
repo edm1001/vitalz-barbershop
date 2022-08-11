@@ -27,7 +27,7 @@ const animateTo = {opacity: 1, y:0}
         animate={animateTo}
         transition={{delay:0.20}}        
         onClick={()=> props.isMobile && props.closeMobileMenu()}>
-        <a href='/#contact'>Contact</a>
+        <a href='/#footer'>Contact</a>
         </motion.li>
         <motion.li
         initial={animateFrom}

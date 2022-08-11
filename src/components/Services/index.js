@@ -9,18 +9,18 @@ function Services() {
 
     return (
         //create a pic that changes with the service line
-        <section className='services' >
+        <section className='services' id='services' >
         <h1>Services</h1>
-        <ul id='services'> 
-        <li>Haircut - $25</li>
-        <li>Edge up - $12</li>
+        <ul id='service'> 
+        <li>Haircut - $30</li>
+        <li>Edge up - $15</li>
         <li>Hot Towel Shave - $20</li>
         <li>Haircut and Shave - $35</li>        
         <li>Head Shave - $30</li>
-        <li>Kids 12 and Under - $20</li>
+        <li>Kids 12 and Under - $25</li>
         </ul>
         <div className='appointment' >  
-            <Link to="/login"> Make a Reservation</Link> 
+            <Link to="/login"> Book With Us! </Link> 
         </div>
         </section>
     )

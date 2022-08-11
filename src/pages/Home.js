@@ -1,9 +1,9 @@
 import React from "react";
 import About from '../components/About';
 import Services from "../components/Services";
-import Gallery from "../components/Gallery";
+import Gallery from "../components/Gallery/index";
 import Contact from "../components/Contact";
-// import Particle from "../components/particleBackground"
+import Review from "../components/Review";
 
 const Home = () => {
   return (  
@@ -14,7 +14,7 @@ const Home = () => {
         <Gallery></Gallery>
         <Contact>
         </Contact>
-        {/* add particles to the div section */}
+        <Review/>
     </main>
     
     )
