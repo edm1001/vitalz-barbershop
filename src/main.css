@@ -18,7 +18,7 @@ body {
   color: var(--textColor);
   height: 100vh;
   line-height: 2.0;
-  text-align: center;
+
 }
 h1 {
   text-align:center;
@@ -114,12 +114,14 @@ li{
   background-size: cover;
   background-position: center;
   width:100%;
+
   line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 0 20px;
 }
-.ourstory p {
-  /* opacity: 0.7; */
-}
+
 
 /* ABOUT END */
 
@@ -222,15 +224,21 @@ li{
 /* CONTACT END */
 
 /* REVIEWS START */
-.review{
-  background-color:whitesmoke;
-  color: black;
+.reviews{
+  color: white;
+  font-weight: bold;
   align-items: center;
   border: solid var(--goldColor);
+  text-align: center;
+  background-image: url(./assets/cover/background01.jpg);
+  border-bottom: 80px;
 }
-.review h5{
+.reviews h5{
   position: left;
-
+  
+}
+.reviews div {
+  border-block: 1px solid white;
 }
 /* REVIEWS END  */
 
@@ -283,7 +291,8 @@ li{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 0.2rem;
+    gap: 1px;
+    line-height: 1.5;
     transition: 1.5s;
     font-size: .8rem;
     position: absolute;
@@ -292,8 +301,10 @@ li{
     background-repeat:no-repeat ;
     background-position: center;
     background-color: var(--blueColor);
-    border-top: 2px solid #ffff;
-    border-right: 20px;
+    padding: 30px;
+    border-block: 5px solid #ffff;
+    border-left: 20px;
+    padding-inline: 15px;
   }
   .placeholder{
   width: 20%;
@@ -313,6 +324,7 @@ li{
   .Navbar .MobileNavigation {
     display: flex;
     align-items: center;
+
   }
   .burger {
     color: white;
@@ -338,11 +350,18 @@ li{
   .navbar-logo img:hover {
     color:white
   }
+  .navlinks {
+    height:80%;
+    display:flex;
+    color:white;
+  }
   
   /* LOCATION */
   .location {
     justify-content: space-around;
   }
+
+  
   /* FOOTER */
   .number {
     font-size: 16px;

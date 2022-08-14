@@ -11,7 +11,7 @@ function Footer() {
                 <div className='icons'>
                 <a href='https://www.facebook.com/vitalcutztexas'>
                 <FaFacebook
-  color='blue' size='40px'
+  color='darkblue' size='40px'
                 />
                 </a>
                 </div>

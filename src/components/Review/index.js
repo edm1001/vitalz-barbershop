@@ -6,7 +6,7 @@ function Review() {
   return (
     <section>
     <h1>Reviews</h1>
-    <div className='review'>
+    <div className='reviews'>
     <div>
        <h5><TiScissors
        color='#d5ab44' size='18px'/>
