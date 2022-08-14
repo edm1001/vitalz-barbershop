@@ -226,12 +226,12 @@ li{
 
 /* REVIEWS START */
 .reviews{
-  color: white;
+  color: black;
   font-weight: bold;
   align-items: center;
   border: solid var(--goldColor);
   text-align: center;
-  background-image: url(./assets/cover/background01.jpg);
+  background-color:whitesmoke;
   background-size:contain;
   border-bottom: 80px;
 }
@@ -240,7 +240,8 @@ li{
   
 }
 .reviews div {
-  border-block: 1px solid white;
+  border-block: 1px solid black;
+  padding: 10px;
 }
 /* REVIEWS END  */
 
@@ -248,13 +249,13 @@ li{
 .footer {
   background-image:url(./assets/cover/background01.jpg);
   background-size: cover;
-  background-color: #ffff;
   width:100%;
   border-top: 3px solid #d5ab44;
   color: black;
   display: flex;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center; 
+  padding-top: 20px; 
 
 }
 #socials{
