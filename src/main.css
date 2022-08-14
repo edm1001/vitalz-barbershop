@@ -132,6 +132,7 @@ li{
   align-items: center;
 }
 #service {
+  padding-right: 30px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -231,6 +232,7 @@ li{
   border: solid var(--goldColor);
   text-align: center;
   background-image: url(./assets/cover/background01.jpg);
+  background-size:contain;
   border-bottom: 80px;
 }
 .reviews h5{
