@@ -11,7 +11,8 @@ function Contact() {
         <div className='contact-info'>    
         <h3>Times</h3>
         <section className='shop-times'>
-            <div className='daily-time'>
+            <div className='daily-time'
+            >
             <img src={Background} alt='background' className='times-logo' />
             <ul>               
                 <li>Mon: 10am - 7pm</li>
