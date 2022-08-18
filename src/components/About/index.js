@@ -8,7 +8,7 @@ function About() {
         <h1 id="about" style={bounce}>Our Purpose</h1>
         <div className='ourstory'>
           <p id='about-info'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. 
+            At Vital Cutz we provide quality haircuts you deserve! <br/> With each haircut our certified barbers give effort and time to make sure you leave with a fresh haircut that everybody will appreciate.
           </p>
         </div>
       </section>

@@ -21,8 +21,9 @@ function Services() {
         <section className='services' >
         
         <h1>Services</h1>
-
+        <div className='coaster'>
         <AliceCarousel mouseTracking items={items} className='carousel' />
+        </div>
         <div className='ui-grid-a'>
         <div className='ui-block-b'>
         <ul id='service'> 
