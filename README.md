@@ -4,7 +4,7 @@
 This is a landing app for a local barbershop to introduce its visitors to the shop's story and services.
 ## Table Of Contents
 
--[Description](#description)
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
