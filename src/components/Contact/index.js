@@ -1,5 +1,5 @@
 import React from 'react';
-import Map from '../../assets/logo/vb-location.png';
+import Map from '../../assets/logo/vb-location45.png';
 import Background from '../../assets/logo/vb-logo.png'
 
 
@@ -32,12 +32,12 @@ function Contact() {
             </section> 
             
             <h3>Location</h3>
-            <section className='shop-times'> 
+            <section className='shop-times' id='shop-location'> 
             <div className='location' id="location">
             <a href='https://www.google.com/maps/place/Vital+cuts/@30.2922935,-95.4690572,17z/data=!3m1!4b1!4m5!3m4!1s0x8647398b35ae632b:0x2ff55ee2515a672!8m2!3d30.2922935!4d-95.4690572' >804 Gladstell St suite 140, Conroe, TX 77304</a>
             </div>
             <div className='location-img'>
-            <img src={Map} alt='map' style={{width:'80%'}}>
+            <img id="map" src={Map} alt='map' style={{width:'80%'}}>
             </img>
             </div>
             </section>

@@ -17,7 +17,7 @@ const Gallery = () => {
         
         <div className='client-gallery'>
         <figure className="gallery__item gallery__item--1">
-        <img src={haircut09} alt='haircut'  style={{width:'100%'}}/> 
+        <img src={haircut09} alt='haircut' /> 
         </figure>
         <figure className='gallery__item gallery__item--2'>
         <img src={haircut02} alt='haircut' style={{width:'100%'}} /> 

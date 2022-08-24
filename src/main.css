@@ -158,7 +158,16 @@ li{
 
 /* GALLERY START */
 
-
+.client-gallery {
+  background-image: url(./assets/cover/B&W-background.jpg);
+}
+.gallery__item {
+  border: #d5ab44 5px inset;
+}
+.gallery__item img {
+  height: 100%;
+  width:100%;
+}
 
 /* GALLERY END */
 
@@ -214,9 +223,16 @@ li{
     transition: 0.2s;
   
 }
+#shop-location{
+  background-image: url(./assets/cover/B&W-background.jpg);
+  background-size: cover;
+}
 .location-img{
   justify-content: space-around;
   padding-top: 15px;
+}
+#map{
+  border: #d5ab44 5px inset;
 }
 /* CONTACT END */
 
@@ -348,6 +364,14 @@ li{
     display:flex;
     color:white;
   }
+  /* ABOUT */
+  .ourstory{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    
+  }
+
   /* SERVICES */
 
   .sliderimg {
