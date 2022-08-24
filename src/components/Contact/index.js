@@ -1,6 +1,5 @@
 import React from 'react';
 import Map from '../../assets/logo/vb-location45.png';
-import Background from '../../assets/logo/vb-logo.png';
 
 function Contact() {
     return (
@@ -39,7 +38,7 @@ function Contact() {
             <a href='https://www.google.com/maps/place/Vital+cuts/@30.2922935,-95.4690572,17z/data=!3m1!4b1!4m5!3m4!1s0x8647398b35ae632b:0x2ff55ee2515a672!8m2!3d30.2922935!4d-95.4690572' >804 Gladstell St suite 140, Conroe, TX 77304</a>
             </div>
             <div id='location'>
-             <a href=''>  
+             <a href='https://youtube.com'>  
              Book With Us! 
              </a>
         </div>

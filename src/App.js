@@ -3,8 +3,7 @@ import Footer from './components/Footer';
 import Nav from './components/Nav/Navbar';
 import Home from './pages/Home';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import Login from './pages/Login';
-import Appointment from './pages/Appointment';
+
 
 function App() {
   return (
@@ -17,14 +16,14 @@ function App() {
                 path="/"
                 element={<Home />}
               />
-          <Route
+          {/* <Route
                 path="/login"
-                element={<Login />}
+                element={</>}
               />
           <Route
                 path="/appointment"
                 element={<Appointment/>}
-              />
+              /> */}
           
          </Routes>
         </div>
