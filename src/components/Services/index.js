@@ -3,9 +3,11 @@ import {Link} from 'react-router-dom';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import service01 from '../../assets/cover/WalkIn-Sign.png';
-import service02 from '../../assets/cover/Shop-Policy.png';
+import service02 from '../../assets/team/crew01.jpg';
 import service03 from '../../assets/haircuts/haircut03.jpg';
 import Prices from '../../assets/cover/Service-Prices.jpg';
+
+import Policy from '../../assets/cover/Shop-Policy.png';
 
 const handleDragStart = (e) => e.preventDefault();
 
@@ -16,10 +18,7 @@ const items = [
 ];
 
 function Services() {
-// let history = useHistory();
-
     return (
-        //create a pic that changes with the service line
         <section className='services' >
         
         <h1>Services</h1>
@@ -34,6 +33,8 @@ function Services() {
         <div className='appointment' >  
             <Link to="/login"> Book With Us! </Link> 
         </div>
+        <img src={Policy} className='policy' alt='policy'
+        />
         </section>
     )
 }

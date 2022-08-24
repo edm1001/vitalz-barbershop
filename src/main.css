@@ -16,7 +16,11 @@ body {
 h1 {
   text-align:center;
   border-bottom: 4px ridge #d5ab44;
-  
+  font-weight: bolder;
+  font-size: 50px;
+}
+h3{
+  font-size: 30px;
 }
 
 
@@ -75,7 +79,7 @@ li{
   border-color: var(--goldColor) ;
   background: var(--goldColor);
   border-radius: 5px;
-  width:50%;
+  width:25%;
   display:flex;
   text-align: center;
   justify-content: space-between;
@@ -116,8 +120,9 @@ li{
 
 }
 .ourstory {
-  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(./assets/cover/cover-image.png);
-  background-size: cover;
+  background:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url(./assets/cover/cover-image.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
   width:100%;
   height:500px;
@@ -128,6 +133,7 @@ li{
   justify-content: center;
   border: 0 20px;
 }
+
 
 
 
@@ -143,7 +149,7 @@ li{
   align-items: center;
 }
 #service {
-  padding-right: 30px;
+  /* padding-right: 30px; */
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -152,6 +158,17 @@ li{
 .carousel{
   border: 5px solid white;
 }
+
+.policy {
+  margin-top: 25px;
+  justify-content: space-around;
+  align-items: center;
+  width:99%;
+  object-fit: contain;
+  height:100%;
+  border: lightgray 4px inset;
+}
+
 /* SERVICES END */
 
 /* GALLERY START */
@@ -159,6 +176,7 @@ li{
 .client-gallery {
   background-image: url(./assets/cover/B&W-background.jpg);
 }
+
 .gallery__item {
   border: #d5ab44 5px inset;
 }
@@ -170,25 +188,30 @@ li{
 /* GALLERY END */
 
 /* CONTACT START */
-.contact{
-  justify-content: space-around;
-}
 .contact h3 {
   border-bottom: #ffff 2px outset;
+}
+.contact{
+  background-image: url(./assets/cover/B&W-background.jpg);
 }
 .contact-info{
   text-align: center;
 }
-.shop-times{
-  background-size: cover;
-  align-items: center;
+
+
+.daily-time{
+  display: flex;
   justify-content: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 10px;
+
 }
-.shop-times a{
+.daily-time ul {
+  list-style-type: none;
+  color:white;
+  font-weight: 120px;
+}
+.shop-location a{
   text-decoration: none;
   font-weight: bold;
   color: var(--textColor);
@@ -197,23 +220,6 @@ li{
   align-items: center;
   border-radius: 5px;
   color: white;
-    
-}
-.daily-time{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-.daily-time ul {
-  list-style-type: none;
-  color:white;
-  font-weight: 120px;
-}
-.times-logo{
-  opacity:0.3;
-  width: 250px;
-  height:200px;
-  position: absolute;
 }
 #location a:hover {
     cursor: pointer;
@@ -221,13 +227,14 @@ li{
     transition: 0.2s;
   
 }
-#shop-location{
-  background-image: url(./assets/cover/B&W-background.jpg);
+
+#location{
   background-size: cover;
+  padding-bottom: 30px;
 }
 .location-img{
   justify-content: space-around;
-  padding-top: 15px;
+  object-fit: contain;
 }
 #map{
   border: #d5ab44 5px inset;
@@ -292,10 +299,13 @@ li{
     opacity: 1;
     font-size: 2rem;
   }
+  .nav-bar {
+    height: 60px;
+  }
   header nav ul {
     top: 85px;
     width: 90% ;
-    height:80%;
+    height:100%;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -314,12 +324,7 @@ li{
     border-block: 5px solid #ffff;
     padding-inline: 15px;
   }
-  .placeholder{
-  width: 20%;
-  display : flex;
-  margin-top : 30px;
-  padding-right : 50px
-  }
+
   
   .navlinks {
     flex-direction: column;
@@ -332,7 +337,6 @@ li{
   .Navbar .MobileNavigation {
     display: flex;
     align-items: center;
-
   }
   .burger {
     color: white;
@@ -369,21 +373,20 @@ li{
     text-align: center;
     
   }
+  .about {
+    margin-top: 50px;
+  }
 
   /* SERVICES */
 
   .sliderimg {
-    width: 100%;
-    height: auto;
+    width: 98%;
+    height: 100%;
     border: #d5ab44 3px inset;
     /* display: flex; */
   }
-  #shop-policy {
-    width:100%;
-    height:100%
-  }
   .coaster {
-    width:100%;
+    width:99%;
     
   }
   .prices {
@@ -392,10 +395,13 @@ li{
     align-items: center;
     justify-content: center;
   }
-
+  .appointment{
+    margin-left: 35%;
+  }
   /* LOCATION */
-  .location {
+  #shop-location {
     justify-content: space-around;
+    margin-top: 90px;
   }
   
   

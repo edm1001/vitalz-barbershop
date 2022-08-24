@@ -1,6 +1,6 @@
 import React from 'react';
 import {bounce} from 'react-animations';
-// import Background from '../../assets/logo/vb-logo.png';
+
 
 function About() {
     return (
@@ -9,7 +9,7 @@ function About() {
         <div className='ourstory'>
           <p id='about-info'>
             At Vital Cutz we welcome everyone to a quality haircuts you deserve! <br/> With each haircut our certified barbers give effort and time to make sure you leave with a fresh haircut that everybody will appreciate.
-          </p>
+          </p> 
         </div>
       </section>
     )

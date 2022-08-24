@@ -48,7 +48,7 @@ const animateTo = {opacity: 1, y:0}
         animate={animateTo}
         transition={{delay:0.50}}        
         onClick={()=> props.isMobile && props.closeMobileMenu()}>
-        <Link to="/appointment"> Book with Us!</Link>   
+        <Link to="/appointment"> Make an Appointment</Link>   
         </motion.li>
         <motion.li
         initial={animateFrom}
