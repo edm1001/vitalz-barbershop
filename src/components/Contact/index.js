@@ -1,7 +1,6 @@
 import React from 'react';
 import Map from '../../assets/logo/vb-location45.png';
-import Background from '../../assets/logo/vb-logo.png'
-
+import Background from '../../assets/logo/vb-logo.png';
 
 function Contact() {
     return (

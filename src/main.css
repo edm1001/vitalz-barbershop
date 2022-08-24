@@ -6,11 +6,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: monospace;
   background-color: black;
   color: var(--textColor);
   height: 100vh;
@@ -22,9 +18,7 @@ h1 {
   border-bottom: 4px ridge #d5ab44;
   
 }
-.services  ul li {
-  font-weight: 150px;
-}
+
 
 /* NAVBAR START */
 nav a {
@@ -78,19 +72,20 @@ li{
   height:100%;
 }
 .appointment {
-  text-align: center;
-  border-radius: auto;
   border-color: var(--goldColor) ;
   background: var(--goldColor);
-  align-items: center;
   border-radius: 5px;
-  padding-inline: 20px;
-  
+  width:50%;
+  display:flex;
+  text-align: center;
+  justify-content: space-between;
 }
 .appointment a {
   text-decoration: none;
   font-weight: bold;
   color: var(--textColor);
+  text-align: center;
+  width: 100%;
   
 }
 .appointment a:hover {
@@ -139,6 +134,9 @@ li{
 /* ABOUT END */
 
 /* SERVICES START*/
+.services  ul li {
+  font-weight: 150px;
+}
 #appointment-btn{
   display: flex;
   justify-content: center;
@@ -375,17 +373,24 @@ li{
   /* SERVICES */
 
   .sliderimg {
-    width: 99%;
-    height: 500px;
-    object-fit: cover;
+    width: 100%;
+    height: auto;
     border: #d5ab44 3px inset;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* display: flex; */
+  }
+  #shop-policy {
+    width:100%;
+    height:100%
   }
   .coaster {
-    padding-right: 10px;
-    padding-left: 8px;
+    width:100%;
+    
+  }
+  .prices {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
   }
 
   /* LOCATION */
